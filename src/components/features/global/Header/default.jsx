@@ -17,6 +17,10 @@ class Header extends React.Component {
 					<img src={logoUrl} className="Header-LogoEE" />
 					<div className="Header-Date">{dateTime}</div>
 					<div className="Header-SocialLinks"><SocialLinks/></div>
+					<div className="Header-Buttons">
+						<a className="Header-BtnSuscribe" href="">Suscribete</a>
+						<a className="Header-BtnLogin" href="">Iniciar Sesión</a>
+					</div>
 				</div>
 			</Fragment>
 		)
