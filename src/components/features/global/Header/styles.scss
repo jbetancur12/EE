@@ -1,0 +1,24 @@
+.Header{
+    max-width: 1360px;
+    position: relative;
+    width: 100%;
+    text-align: right;
+    // display: flex;
+    // flex-direction: row;
+    // align-items: center;    
+    &-LogoEE{
+            display: inline-block;
+            max-width: 380px;
+            float: left;
+    }
+    &-Date{
+        display: inline-block;
+        padding-left: 20px;
+        text-transform: capitalize;
+        float: left;
+        line-height: 58px;
+    }
+    &-SocialLinks{
+        display: inline-block;
+    }
+}
