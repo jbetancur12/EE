@@ -41,7 +41,7 @@ const DateTimeInfo = (date, relative = false, localeString = 'es-CO') => {
             }
         }
     }
-    return displayDate.toLocaleString(localeString, dateOptions);
+    return displayDate.toLocaleString(localeString, dateOptions).replace(",","");
 };
 
 export default DateTimeInfo;

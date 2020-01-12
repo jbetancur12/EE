@@ -1,0 +1,57 @@
+.Navbar {
+  width: 100%;
+  display: block;
+  text-align: center;
+  &-Menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+  }
+  &-Item {
+    float: left;
+    &-link {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      &:link{
+          text-decoration: none;
+          color: white;
+      }
+    }
+
+    &:hover {
+      background-color: red;
+    }
+  }
+}
+
+.SubMenuNoticias {
+    width: 400px;
+    display: flex;
+    background-color: black;
+    position: absolute;
+    &-Container {
+        padding-top: 10px;
+      width: 100%;
+      min-width: 300px;
+      list-style: none;
+      &-items{
+        color: #fff;
+          width: 50%;
+          float: left;
+          text-align: left;
+          border-bottom: 1px solid #2c2c2c;
+          &:link{
+            text-decoration: none;
+        }
+        &:hover{
+            background: rgba(34, 33, 33, 0.8);
+            color: #fff;
+        }
+      }
+    }
+  }
