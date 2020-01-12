@@ -1,8 +1,12 @@
 import React from 'react'
+import dateTimeInfo from "../../../utilities/DateTimeInfo";
 
-const Header= props => {
-  return (
-    <div>Header  </div>
-  )
+class Header extends React.Component{
+    render(){
+        return(
+            <div>Hola</div>
+        )
+    }
 }
+
 export default Header
